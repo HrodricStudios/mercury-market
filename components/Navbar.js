@@ -14,17 +14,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 h-24 flex items-center justify-between">
         {/* Logo con ancho máximo en mobile */}
         <Link href="/" className="flex-shrink-0 h-full flex items-center">
-          <div className="relative h-16 md:h-20 w-[120px] md:w-[180px]">
-            <Image
-              src="/images/logo.png"
-              alt="Mercury Market"
-              fill
-              sizes="(max-width: 768px) 120px, 180px"
-              className="object-contain"
-              priority
-              unoptimized
-            />
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="Mercury Market"
+            className="h-16 md:h-20 w-auto"
+          />
         </Link>
 
         {/* Enlaces de escritorio */}
