@@ -148,6 +148,7 @@ export default function Home() {
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
+            className="max-w-full"
             title="Mapa de Mercury Market"
           ></iframe>
         </div>
